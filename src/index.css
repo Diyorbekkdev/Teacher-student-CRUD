@@ -1,0 +1,40 @@
+.ant-layout-sider {
+  height: 100vh;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+  height: calc(100vh - 64px);
+  overflow: scroll;
+}
+.btn_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-table-wrapper .ant-table-pagination-right{
+  justify-content: center !important;
+}
+
+
+.main_text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
+
+}
+.green{
+  color: green;
+  font-weight: bold;
+  font-size: calc(24px + 16 * (100vw - 1200));
+}
+
+.title{
+  color: blue;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: calc(24px + 16 * ((100vw - 320px) / (1280 - 320)));
+}
