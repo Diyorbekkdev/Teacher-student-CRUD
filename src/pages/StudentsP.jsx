@@ -190,7 +190,7 @@ const StudentsPage = () => {
 
   function deleteStudent(id) {
     confirm({
-      title: "Do you Want to delete this teacher?",
+      title: "Do you Want to delete this student?",
       icon: <ExclamationCircleFilled />,
       onOk: async () => {
         await request.delete(`teacher/${teacherId}/student/${id}`);
